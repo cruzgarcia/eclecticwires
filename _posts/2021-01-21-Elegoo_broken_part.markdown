@@ -30,3 +30,5 @@ The link to the 3D part is here: [3D Model](https://github.com/cruzgarcia/3d_pri
 ![Camera support plate](/assets/elegoo-support-3d.png)
 
 At the end, the robot looks nice and wating to have some fun and hardware modifications ;)!
+
+![Camera support plate](/assets/elegoo-004.jpg)

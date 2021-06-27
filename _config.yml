@@ -26,7 +26,7 @@ url: "https://eclecticwires.com"
 github_username:  cruzgarcia
 
 # Build settings
-theme: minima
+theme: jekyll-theme-cayman
 plugins:
   - jekyll-feed
 

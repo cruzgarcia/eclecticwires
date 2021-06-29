@@ -24,6 +24,7 @@ description: Hobby electronics.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://eclecticwires.com"
 github_username:  cruzgarcia
+future: true
 
 # Build settings
 theme: minima

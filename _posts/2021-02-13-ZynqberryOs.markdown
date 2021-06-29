@@ -33,3 +33,21 @@ For the Petalinux configuratio, follow the instructions from:
 
 * FSBL
     Zynq First Stage Boot Loader: Configures the FPGA with the bitstream and loads the OS.
+
+
+# Petalinux
+
+        petalinux-create --type project --template zynq --name zynqberryOS
+        petalinux-config --get-hw-description ../../zynqberry/zynqberry_hello_world/vivado/
+Alternative, copy the XSA to the petalinux root folder and run:
+        petalinux-config --get-hw-description
+        petalinux-config -c kernel
+        peatlinux-build
+
+        petalinux
+
+Many issues saw during setting up petalinux were solved by reading the following post:
+
+        https://www.centennialsoftwaresolutions.com/post/petalinux-2019-1-on-debian-10-3-running-on-vmware-workstation-14-player-debug-log
+
+

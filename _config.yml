@@ -27,7 +27,7 @@ github_username:  cruzgarcia
 future: true
 
 # Build settings
-theme: jekyll-theme-cayman
+theme: minima
 plugins:
   - jekyll-feed
 
